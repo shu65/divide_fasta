@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # coding: utf-8
 
 import sys
@@ -10,9 +10,7 @@ from Bio.SeqRecord import SeqRecord
 from Bio import SeqIO
 from Bio.Alphabet import generic_dna
 from Bio.Alphabet import IUPAC
-from numpy.core.fromnumeric import sort
 from Bio.Geo.Record import out_block
-from numpy.distutils.lib2def import output_def
 
 
 def get_options():
